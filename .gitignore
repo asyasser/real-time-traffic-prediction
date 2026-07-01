@@ -1,0 +1,32 @@
+# Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Spark checkpoints
+checkpoints/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Model files (large binary files)
+models/*.pth
+models/*.pt
+
+# Data files (large)
+data/*.parquet
+data/*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Metrics output files
+metrics_*.csv
+resource_usage.csv
