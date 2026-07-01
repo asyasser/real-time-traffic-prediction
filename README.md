@@ -9,11 +9,6 @@ This project implements a real-time traffic speed forecasting system using the M
 
 ---
 
-## Architecture
-[Kafka Producer] → [Kafka] → [Spark Structured Streaming] → [Redis]   → [Grafana]
-(BLSTM Inference)      → [MongoDB] → [Flask API] → [Grafana]
-
----
 
 ## Stack
 
